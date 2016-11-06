@@ -28,6 +28,40 @@ class ProfileController extends Controller
 
     */
 
+    public function  getAbout($id)
+    {
+        $user = Auth::user();  // edit
+       
+        if($user->id != $id)        // edit
+            return redirect('/');   // edit
+       
+        return view('EditAbout');
+    }
+ 
+    public function postAbout($id,Request $req)
+    {
+        try
+        {
+            $user = User::findOrfail($id);
+ 
+            if($id != $user->id)
+                return redirect('/');
+ 
+            $user->studies_at = $req->institution ;
+            $user->details_address = $req->address ;
+            $user->save();
+ 
+            return redirect('/profile/'.$user->id);
+        }
+ 
+        catch (\Exception $ex)
+        {
+            return redirect('/');
+        }
+    }
+
+    /* before fixing bug
+
 	public function  getAbout()
 	{
 		return view('EditAbout');
@@ -43,6 +77,8 @@ class ProfileController extends Controller
 		
 		return redirect('/profile/'.$user->id);
 	}
+
+	*/
 
 	public function paginate($array, $perPage, $pageStart=1)
 	{

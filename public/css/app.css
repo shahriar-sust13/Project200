@@ -6194,6 +6194,11 @@ body {
 
 .notification-bar h5 {
   line-height: 25px;
+  margin: 10px 0px 0px 0px;
+  font-size: 18px; }
+
+.notification-bar-2 h5 {
+  line-height: 25px;
   margin: 0px;
   font-size: 18px; }
 
@@ -6253,7 +6258,8 @@ body {
   margin-top: 50px; }
 
 .about-section {
-  background-color: #2877B2; }
+  background-color: #2877B2;
+  margin-top: 70px; }
 
 .site-history {
   padding: 30px; }
@@ -6274,5 +6280,8 @@ body {
   font-size: 20px;
   color: #F4F4F4;
   font-family: "Tahoma"; }
+
+.edit-about-section {
+  margin-top: 100px; }
 
 /*# sourceMappingURL=app.css.map */

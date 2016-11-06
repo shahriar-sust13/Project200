@@ -100,9 +100,13 @@
 						</div>
 					</div>
 
-					<div class="text-center">
-						<a href="{{url("/profile/{$user->id}/about")}}" class="btn btn-primary">Edit</a>
-					</div>
+					@if(Auth::user()->id == $user->id)
+
+						<div class="text-center">
+							<a href="{{url("/profile/{$user->id}/about")}}" class="btn btn-primary">Edit</a>
+						</div>
+
+					@endif
 
 				</div>
 			</div>

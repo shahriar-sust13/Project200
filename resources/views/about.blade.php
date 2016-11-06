@@ -8,7 +8,7 @@
                 About Us
             </h3>
             <p>
-                We are Moudud Khan Shahriar and Md. Nazim Uddin from SUST CSE 2013 Batch are the developer of this website. We build this website for our Academic Course Project-200 under the supervision of Sheikh Nabil Mohammad, Lecturer, CSE, SUST.
+                We are Moudud Khan Shahriar and Md. Nazim Uddin from SUST CSE 2013 Batch are the developer of this website. We build this website for our Academic Course Project-200 under the supervision of Sheikh Nabil Mohammad, Lecturer, CSE, SUST and Biswapriyo Chakrabarty, Lecturer, CSE, SUST.
                 </br>
                 This Project is still under-construction. So there may remain many bugs. All of you are requested to send us any types of feedback, suggestions about this website. We will improve our site using your suggestions to make it more user friendly.   
             </p>

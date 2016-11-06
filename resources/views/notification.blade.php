@@ -46,7 +46,7 @@
                 <div class="row">
                     @if(sizeof($types2) > 0)
                         @foreach($types2 as $type2)
-                            <div class="notification-bar col-md-offset-1 col-md-10 col-xs-12">
+                            <div class="notification-bar notification-bar-2 col-md-offset-1 col-md-10 col-xs-12">
                                 <div class="col-md-1 col-xs-2">
                                     <img src="{{url("images/accept.png")}}"  height="40px">
                                 </div>

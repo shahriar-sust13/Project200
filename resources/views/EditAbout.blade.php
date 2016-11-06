@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="get-space row">
+        <div class="get-space row edit-about-section">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">Edit About</div>
