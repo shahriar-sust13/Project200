@@ -4,7 +4,7 @@
 @section('content')
 	
 	<div class="container search-bar">
-		<h3>Select Your Address and Book Category!</h3>
+		<h3>Select Your Address</h3>
 
 		{!! Form::open(array('method' => 'POST' , 'action' => 'SearchController@postBookList' , 'class' => 'form-horizontal'))!!}
 
